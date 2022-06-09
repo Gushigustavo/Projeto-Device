@@ -264,12 +264,13 @@ margin: 100px 0px;
     width: 40%;
     display: flex;
     justify-content: space-between;
+    
 }
 .box9 aside div p:nth-child(1){
     margin-bottom: 10px;
 }
 a{
-    color: var(--color4);
+    color: black;
 }
 .box9 aside div  a:hover{
     cursor: pointer;
@@ -282,8 +283,8 @@ a{
     display: flex;
     justify-content: space-between;
     width: 8%;
-    color: var(--color4);
     font-size: 20px;
+
 }
 a:hover{
     cursor: pointer;
@@ -434,17 +435,23 @@ a:hover{
     flex-direction:column;
     align-items: stretch;
 }
-.box9{
+.container__box9{
 
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box9{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
     flex-direction:column;
     align-content: space-between;
-    align-items: center;
     padding: 10px;
     height:50vh;
 }
 .box9 > aside{
-  background-color: red;
     width: 60%;
     display: flex;
     align-items: center;
